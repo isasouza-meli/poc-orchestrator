@@ -1,4 +1,4 @@
-package com.mercadolibre.pocorchestrator.application
+package com.mercadolibre.pocorchestrator.application.config
 
 import com.fasterxml.jackson.databind.DeserializationFeature
 import com.fasterxml.jackson.databind.ObjectMapper

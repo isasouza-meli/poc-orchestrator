@@ -3,7 +3,7 @@ package com.mercadolibre.pocorchestrator.functional
 import com.github.tomakehurst.wiremock.WireMockServer
 
 import com.mercadolibre.pocorchestrator.PocOrchestratorApplication
-import com.mercadolibre.pocorchestrator.application.JacksonConfig
+import com.mercadolibre.pocorchestrator.application.config.JacksonConfig
 import org.junit.jupiter.api.*
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.boot.test.context.SpringBootTest

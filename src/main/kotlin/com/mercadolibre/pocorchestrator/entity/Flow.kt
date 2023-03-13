@@ -1,4 +1,4 @@
-package com.mercadolibre.pocorchestrator.workflow.entity
+package com.mercadolibre.pocorchestrator.entity
 
 import java.time.OffsetDateTime
 

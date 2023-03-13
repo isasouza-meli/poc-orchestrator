@@ -9,13 +9,16 @@ import org.jeasy.flows.workflow.WorkFlow
 import org.springframework.stereotype.Component
 
 @Component
-class PocFlowBuilder : FlowBuilder {
+class PocFlowBuilder(
+  private val work1: Work1,
+  private val work2: Work2
+) : FlowBuilder {
 
   override fun createFlowInstance(): WorkFlow =
     aNewSequentialFlow()
       .named(FlowNames.POC)
-      .execute(Work1())
-      .then(Work2())
+      .execute(work1)
+      .then(work2)
       .build()
 
 }

@@ -1,6 +1,6 @@
 package com.mercadolibre.pocorchestrator.core.usecase
 
-import com.mercadolibre.pocorchestrator.core.interfaces.usecase.PocUseCase
+import com.mercadolibre.pocorchestrator.core.interfaces.PocUseCase
 import org.springframework.stereotype.Service
 
 @Service
